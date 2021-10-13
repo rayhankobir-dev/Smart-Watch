@@ -9,20 +9,24 @@ body{
 .toggler{
   width: 25px;
 }
+.navbar-toggler-icon{
+  color: white;
+  font-size: 25px;
+}
 .logo{
   width: 125px;
 }
-
-
 .signin-btn{
   border: none;
   border-radius: 33px;
-  padding: 7px 25px;
-  background-color: #f3a041de ;
+  padding: 10px 30px;
+  background-color: #fa3848 ;
+  color: white;
 }
 .content{
   margin-top: 10px;
 }
+
 .description h1{
   letter-spacing: 2px;
 }
@@ -32,6 +36,8 @@ body{
 .description p{
   line-height: 30px;
 }
+
+
 .main-conatiner h6{
   color: #fa3848;
 }
@@ -45,8 +51,28 @@ body{
 .watch{
   width: 820px;
 }
+
+
 @media screen and (max-width: 767px) {
-    .hide {
-      display: none;
-    }
+  .nav-link{
+    background-color: #fa3848;
+    border-radius: 33px;
+    margin-bottom: 10px;
   }
+  .padd{
+    padding-top: 10px;
+  }
+  .hide {
+    display: none;
+  }
+  .head-content{
+    text-align: center;
+  }
+  .navbar-toggler{
+    margin-top: 25px;
+    margin-bottom: 20px;
+  }
+  .description{
+    padding-left: 50px;
+  }
+}
